@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Teststatusbadge by mmaitre314</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/mmaitre314/TestStatusBadge">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/mmaitre314/TestStatusBadge/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/mmaitre314/TestStatusBadge/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Teststatusbadge</h1>
+          <p>Generates SVG status badges to display AppVeyor test results</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/mmaitre314">mmaitre314</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p>A trivial Web API returning SVG image status badges displaying AppVeyor test results: <a href="http://teststatusbadge.azurewebsites.net/api/status/%7Baccount%7D/%7Bproject%7D">http://teststatusbadge.azurewebsites.net/api/status/{account}/{project}</a></p>
+
+<p>For instance, with mmaitre314 as account and securestringcodegen as project:</p>
+
+<p><a href="https://ci.appveyor.com/project/mmaitre314/securestringcodegen"><img src="https://ci.appveyor.com/api/projects/status/s08qgb4egku0pa3d?svg=true" alt="Build status">
+<img src="http://teststatusbadge.azurewebsites.net/api/status/mmaitre314/securestringcodegen" alt="Test status"></a></p>
+
+<p>Using the markdown:</p>
+
+<div class="highlight highlight-md"><pre>[<span class="pl-e">![Build status</span>](https://ci.appveyor.com/api/projects/status/s08qgb4egku0pa3d?svg=true)
+![<span class="pl-e">Test status</span>](http://teststatusbadge.azurewebsites.net/api/status/mmaitre314/securestringcodegen)]
+(https://ci.appveyor.com/project/mmaitre314/securestringcodegen)</pre></div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
