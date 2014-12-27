@@ -1,4 +1,4 @@
-Test-status badge
+AppVeyor test-status badge
 ===============
 
 A trivial Web API returning SVG image status badges displaying AppVeyor test results: http://teststatusbadge.azurewebsites.net/api/status/{account}/{project}
